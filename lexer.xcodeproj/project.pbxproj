@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CB5FBAA1E31A9BC00D97715 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5FBA91E31A9BC00D97715 /* main.cpp */; };
+		9CB5FBB21E31D1FA00D97715 /* lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5FBB01E31D1FA00D97715 /* lexer.cpp */; };
+		9CB5FBB61E31D29300D97715 /* inputbuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5FBB41E31D29300D97715 /* inputbuf.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		9CB5FBA61E31A9BC00D97715 /* lexer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lexer; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CB5FBA91E31A9BC00D97715 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CB5FBB01E31D1FA00D97715 /* lexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexer.cpp; sourceTree = "<group>"; };
+		9CB5FBB31E31D25500D97715 /* lexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexer.h; sourceTree = "<group>"; };
+		9CB5FBB41E31D29300D97715 /* inputbuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputbuf.cpp; sourceTree = "<group>"; };
+		9CB5FBB71E31D2DF00D97715 /* inputbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inputbuf.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		9CB5FBA81E31A9BC00D97715 /* lexer */ = {
 			isa = PBXGroup;
 			children = (
-				9CB5FBA91E31A9BC00D97715 /* main.cpp */,
+				9CB5FBB01E31D1FA00D97715 /* lexer.cpp */,
+				9CB5FBB31E31D25500D97715 /* lexer.h */,
+				9CB5FBB41E31D29300D97715 /* inputbuf.cpp */,
+				9CB5FBB71E31D2DF00D97715 /* inputbuf.h */,
 			);
 			path = lexer;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB5FBAA1E31A9BC00D97715 /* main.cpp in Sources */,
+				9CB5FBB21E31D1FA00D97715 /* lexer.cpp in Sources */,
+				9CB5FBB61E31D29300D97715 /* inputbuf.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
